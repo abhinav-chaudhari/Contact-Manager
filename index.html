@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Contact Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Contact Manager</h1>
+        <label for="name">Name: </label>
+        <input type="text" id="name" placeholder="Name"><br>
+        <label for="phone">Phone: </label>
+        <input type="tel" id="phone" placeholder="Phone"><br>
+        <button onclick="addContact()">Save</button>
+        <button onclick="location.href='index.html'">Cancel</button>
+        <h2>List of Contacts</h2>
+        <ul id="contactList"></ul>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
